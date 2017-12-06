@@ -1,0 +1,4 @@
+---
+addr:
+  tcp://localhost:3128:
+    reachable: true

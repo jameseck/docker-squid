@@ -4,7 +4,7 @@ MAINTAINER James Eckersall <james.eckersall@gmail.com>
 
 RUN \
   apk update && \
-  apk add apache2-utils bash squid
+  apk add apache2-utils bash curl squid
 
 ADD squid.conf /etc/squid/
 ADD entrypoint.sh /
